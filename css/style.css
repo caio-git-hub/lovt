@@ -19,6 +19,15 @@ body{
 
 header{
     box-shadow: 0px 2px 20px 17px black;
+    /* fixar header na tela */
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    /* projeta o elemento a frente dos outros */
+    z-index: 3;
+    /*posicionamento*/
+    top: 0;
+    left: 0;
 }
 
 header .container{
@@ -202,6 +211,20 @@ footer iframe {
     width: 400px;
     height: 350px;
     max-width: 100%;
+}
+
+.main-form {
+    padding: 100px 0;
+}
+
+/* estilo de botao para <button> ou <a> */
+.btn-primary {
+    background-color: #DC9730;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
 }
 
 @media (max-width: 900px) {
